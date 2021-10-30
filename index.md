@@ -24,8 +24,8 @@ I am a trilingual student fluent in Bangla, English and Hindi with the ability t
 ---
 
 - **Programming languages**: C, C++, Python, Java, HTML, CSS, JavaScript.
-- **Operating System**: Windows
-- **Database**: MySQL
+- **Operating System**: Windows.
+- **Database**: MySQL.
 - **Software Development tools**: Visual Studio Code.
 - **Programming Problems Solved**: 130 problems solved over various programming site mainly on https://codeforces.com/profile/Ikramkhan and a summary of all on https://www.stopstalk.com/user/profile/ikramkhan
 
@@ -54,7 +54,7 @@ Walmart 11/18-04/19
 
 - Assembled products in the unloading area.
 - Stocked the shelf on the main floor.
-- Zoned products in the main floor
+- Zoned products in the main floor.
 
 **Sales Associates**
 Shopno 1/18 – 8/18
