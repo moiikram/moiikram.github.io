@@ -1,49 +1,45 @@
-## Welcome to GitHub Pages
+![Ikram's Resume](Resume.png)
 
-You can use the [editor on GitHub](https://github.com/Ikram001/Ikram001.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+# Hosting a Resume Online
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Ikram001/Ikram001.github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
-
-# Ikram's work begins from here.
-
-# Project Title- Hosting your resume online
-
-A detailed desrcription of how to host a resume, written in markdown language, on Github.
+In this tutorial I am going to show you how you can succesfully host a resume, written in markdown language, on Github, a popular code repository.
 
 One Paragraph of the project description
 
-Initially appeared on gist. But the page cannot open anymore so that is why I have moved it here.
+## Prerequisites
+
+To get started on on your way you will need
+
+- Markdown
+- A Markdown editor
+- A static site generator like Jekyll
+- GitHub Pages or Codeberg Pages
+- A resume formatted in Markdown.
+
+## Instructions
+
+If you look at the above picture, you can see a resume formatted in markdown which is one of the tools mentioned in Andrew Etter’s book _Modern Technical Writing_.
+
+- lightweight markup languages (like AsciiDoc and Markdown),
+- static site generators (such as Sphinx),
+- distributed version control systems (like Git or Bitbucket), - constantly iterating/updating doc content on your website based on analytics,
+
+For this assignment, I am using VSCode editor to create the resume formatted in markdown.
+
+To host the resume online, you will need a [GitHub](https://github.com/signup?source=login) account where we will keep the codes.
+
+## Authors and Acknowledgments:
+
+Ikram Khan Shipon
+
+credit template authors and group membe
+
+## FAQs (with at least two FAQ
+
+## More Resources
+
+- Here's link to learn about Markdown  
+  https://helloacm.com/markdown-markup-language-quick-tutorial/
+
+- Here's a link to buy the Ettor's book  
+  https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS/ref=sr_1_1?crid=U9576L9YVQXR&dchild=1&keywords=etter+technical+writing&qid=1635643082&sprefix=etter+technical+writin%2Caps%2C205&sr=8-1
