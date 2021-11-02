@@ -16,7 +16,7 @@ Following the tools mentioned by Etter, you will need
 
 ## Instructions
 
-If you look at the above picture, you can see a resume formatted in markdown which is one of the tools mentioned in Andrew Etter’s book _Modern Technical Writing_.
+If you look at the above picture, you can see a resume formatted in markdown which is one of the tools mentioned in Andrew Etter’s book _git puModern Technical Writing_.
 
 To learn more about Markdown, check out "More Resources" at the bottom of this file.
 
