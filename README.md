@@ -1,82 +1,98 @@
-![Ikram's Resume](Resume.png)
+# Hosting a Resume on GitHub Pages
 
-# Hosting a Resume Online
+## Purpose
 
-In this assignment, I am going to show you how you can succesfully host a resume, written in markdown language, on Github Pages, a provider of Internet hosting for software development and version control using Git. We will follow the key principals and tools mentioned in Andrew Etter’s book _Modern Technical Writing_ : a lightweight markup language (_Markdown_), a static site generator (_Jekyll_), distributed version control sysytem (_Git_) and hosting on a website (_GitHub Pages_)
+The purpose of this README is to describe the practical steps of how to host and format a resume, and to relate those steps to the general principles of current Technical Writing, as explained in Andrew Etter’s book _Modern Technical Writing_
 
 ## Prerequisites
 
-Following the tools mentioned by Etter, you will need
+- **A resume formatted in Markdown** - To put it simply, Markdown is a simple and effective lightweight markup language used to create and format documents for the web. To learn more about it and how to use Markdown, check the link under the "More Resources" section at the bottom of this document.
 
-- Markdown
-- A Markdown editor (e.g., VScode)
-- A static site generator(e.g., Jekyll)
-- GitHub Pages
-- A resume formatted in Markdown.
+- **A Markdown editor** - You may use any markdown editor of your choice to create and format the resume. I am using _VScode_ for this assignment and you can download it [here](https://code.visualstudio.com/download).
+
+- **A GitHub Account** - To host the resume online with GitHub Pages, you will have to create a GitHub account. Please click [here](https://github.com/join) and follow the instructions to create your account.
 
 ## Instructions
 
-If you look at the above picture, you can see a resume formatted in markdown which is one of the tools mentioned in Andrew Etter’s book _git puModern Technical Writing_.
+### Create a resume file with .md or .markdown format.
 
-To learn more about Markdown, check out "More Resources" at the bottom of this file.
+> 1. Inside VScode click on "**File**".
+> 2. Click "**New File**".
+> 3. Type your markdown text for the resume.
+> 4. Save the file.
+> 5. Type the name of a resume as _`index.md`_ and
+> 6. Click "**Save**".
+> 7. To enable the live markdown preview press `Ctrl+K V`.
 
-- lightweight markup languages (like AsciiDoc and Markdown),
-- static site generators (such as Sphinx),
-- distributed version control systems (like Git or Bitbucket), - constantly iterating/updating doc content on your website based on analytics,
+> In Etter's book, he mentions using a markdown file as well as keeping the files on a website instead of PDFs. This makes it easier to contribute from other people and up to date.
 
-For this assignment, I am using VSCode editor to create the resume formatted in markdown. You can download VScode from [here](https://code.visualstudio.com/download).
+![Creating a Resume](Assets/CreateResume.gif)
 
-- To get a live markdown preview click
+### Create a new repository on GitHub.
 
-```keyboard shortcut
-Ctrl+K V
-```
+> 1. In the upper left corner of the home page, click on the green button labeled **New**.
+> 2. Type a name for your repository in the format **username.github.io** and replace the username with your actual GitHub username.
+> 3. Select **Initialize this repository with a README**.
+> 4. Click **Create repository**.
 
-To host the resume online, you will need a [GitHub](https://github.com/signup?source=login) account where we will keep the codes.
+> Etter's speaks about using Version Control System to store the codes to allow easier contribution which is demonstrated by the above steps.
 
-- Head over to [GitHub](https://github.com/signup?source=login) to create an account.
+![Create a new repository](Assets/CreatingARepo.gif)
 
-1. Once you have an active account, you need a create a repository with the same name as your GitHub user name.
+### Format the website using a Jekyll theme on GitHub.
 
-2. ![Create a new Repo](Assets/NewRepo.gif)
+> 1.  On your GitHub repository, click on "Settings".
+> 2.  Click on the "Pages" menu.
+> 3.  Click on "Choose a theme".
+> 4.  Select a theme.
+> 5.  Click on "select theme" to set up a Jekyll theme for the site.
 
-**Select a Jekyll theme on Github to format the document.**
+> Etter also mentions using a static site generator to format the website layout which can be refelcted by the above steps
 
-- On your GitHub Account, click "Settings".
-- Click on "Pages" menu.
-- Click on "choose a theme".
-- Select a theme and click on the button "select theme" to set up a jekyll theme for the site.
-- To view the new website you created, click on the link on the "Pages" page.
+![Theme of the resume](Assets/ChooseTheme.gif)
 
-  ![ThemeAndResume](Assets/SelectTheme.gif)
+### Upload the markdown formatted resume on GitHub.
 
-## Deployment
+> 1.  On your GitHub repository, click on "Add File" at the top of the page.
+> 2.  From the drop-down menu, select "Upload files".
+> 3.  Click on "choose your files".
+> 4.  Select the markdown formatted resume.
+> 5.  Click "Open".
+> 6.  Type a comment for this new "commit"
+> 7.  Click "Commit changes"
 
-Add additional notes to deploy this on a live system
+> These steps above reinforce Etter's principle of storing documentation in the same folder as the project.
+
+![Upload your resume](Assets/UploadResume.gif)
+
+Finally, View the uploaded resume website.
+
+> 1.  From your repository, click on "Settings".
+> 2.  Click on "Pages".
+> 3.  Click the link that would appear towards the top. The link format will be https://username.github.io/ where username will be your GitHub username
+
+![ Website Preview](Assets/WebsitePreview.gif)
 
 ## Authors and Acknowledgments:
 
-- Ikram Khan Shipon
-- Joshua Moreira
-- Anton Sikorsky
-- Ryan Campbell
-- Kevin Kim
+- Ikram Khan Shipon - author of the resume and README.
+- Peer Editors: Joshua Moreira, Anton Sikorsky, Ryan Campbell, and Kevin Kim.
+- [pandoc_resume](http://mszep.github.io/pandoc_resume/) - Resume format adapted from here.
+- [Jekyll Theme](https://github.com/pages-themes/slate)- This theme was used to format the resume.
 
 ## Contributing
 
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
+If you want to make any changes and update my files, pull requests are welcome.
 
 ## FAQs
 
 Why is Markdown better than a word processor?
 
-> Markdown is simple, effective tool for writing and formatting documents meant to reside on the web. It has limited functionalty which makes it easy to learn and it only requires a text editor to craete and format the document. It can be converted to many other formats unlike word processor documents which may lose some
+> Markdown is a simple, effective tool for writing and formatting documents meant to reside on the web. It has limited functionality which makes it easy to learn and it only requires a text editor to create and format the document. It can be converted to many other formats unlike word processor documents which may lose some
 
 Why is my resume not showing up?
 
-> Make sure the keep you resume file name "index.md" as this is the main file that is displayed on the github page. Additionally, keep the file in the root directory.
+> Make sure to keep your resume file name "index.md" as this is the main file that is displayed on the GitHub page. Additionally, keep the file in the root directory.
 
 ## More Resources
 
@@ -85,3 +101,5 @@ Why is my resume not showing up?
 - [Etter, Andrew. Modern Technical Writing. Kindle edition, Self-published, 2016.](https://www.amazon.ca/Modern-Technical-Writing-Introduction-Documentation-ebook/dp/B01A2QL9SS/ref=sr_1_1?crid=U9576L9YVQXR&dchild=1&keywords=etter+technical+writing&qid=1635643082&sprefix=etter+technical+writin%2Caps%2C205&sr=8-1)
 
 - [Mike Dane's Jekyll Static Site Generator Tutorial](https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB)
+
+- [GitHub Guide](https://guides.github.com/activities/hello-world/)
