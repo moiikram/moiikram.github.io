@@ -75,7 +75,7 @@ Finally, View the uploaded resume website.
 
 ## Authors and Acknowledgments:
 
-- Ikram Khan Shipon - author of the resume and README.
+- Ikram Khan - author of the resume and README.
 - Peer Editors: Joshua Moreira, Anton Sikorsky, Ryan Campbell, and Kevin Kim.
 - [pandoc_resume](http://mszep.github.io/pandoc_resume/) - Resume format adapted from here.
 - [Jekyll Theme](https://github.com/pages-themes/slate)- This theme was used to format the resume.
